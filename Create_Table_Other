@@ -1,0 +1,4 @@
+UNION(
+	VALUES(DimDate_FY[Month]),
+	DATATABLE("Month",STRING,{{"Others"}})
+)
